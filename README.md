@@ -6,4 +6,4 @@ Generalization theory and Application to Operator Learning]
 This section outlines the procedure of the code. 
 
 # Linear system with random matrix
-Consider the linear $Ax=y$, where $A \in \mathbb{R}$
+Consider the linear $Ax=y$, where $A \in \mathbb{R}$ 
