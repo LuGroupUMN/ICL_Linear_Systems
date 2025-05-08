@@ -45,8 +45,8 @@ python test.py
 ```
 
 ## 1.2 Test the out-of-domain (OOD) generalization with diversity
-We evaluate the OOD generalization when trained on a diverse task distribution. 
+We evaluate the OOD generalization when trained on a **diverse** task distribution. Specifically, we expect the matrix $A$ to be diverse enough (See definition 3.3 in the paper).
 
-- During training, we sample $D \sim U_d \left[1,2\right]$ and $y \sim N(0, I_d)$.
-  *- d
+- During training, we sample $D \sim U_d \left[1,2\right]$ (**diverse**) and $y \sim N(0, I_d)$.
+- At inference, we vary the task distribution by varying $D \sim U_d \left[a,b\right]$ across various $(a,b)$.
 
