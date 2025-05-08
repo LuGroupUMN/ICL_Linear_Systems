@@ -19,14 +19,13 @@ The procedures for evaluating error versus the number of tasks (N), length of pr
 Here, we show the **generalization error versus the number of tasks (N)** as an example.
 
 ### 1.1.1 Generalization error vs. Number of Tasks (N)
-
-#### Step 1: Prepare the Data
 - Navigate to the `RM/test_N` directory
 - For evaluations w.r.t. prompt lengths:
   - Use `RM/test_sn` for training prompt length (n)
   - Use `RM/test_m` for inference prompt length (m)
 - Modify configuration parameters in `config.py` as needed.
-- Train model
+
+#### Step 1: Prepare the Data
 
 ```
 python prepare_data.py
