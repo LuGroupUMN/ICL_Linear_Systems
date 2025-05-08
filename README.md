@@ -48,5 +48,6 @@ python test.py
 We evaluate the OOD generalization when trained on a **diverse** task distribution. Specifically, we expect the matrix $A$ to be diverse enough (See definition 3.3 in the paper).
 
 - During training, we sample $D \sim U_d \left[1,2\right]$ (**diverse**) and $y \sim N(0, I_d)$.
-- At inference, we vary the task distribution by varying $D \sim U_d \left[a,b\right]$ across various $(a,b)$.
+- (Task distribution shift): At inference, we vary the task distribution by varying $D \sim U_d \left[a,b\right]$ across various $(a,b)$.
+- (Covariate shift): At inference, we vary the distribution of $y$ by varying $\rho$ in the covariance matrix $\Sigma(\rho)$.
 
