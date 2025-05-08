@@ -90,7 +90,7 @@ python prepare_data.py
 ```
 python train.py
 ```
-#### Step 3: Test the OOD generalization with **bad model** and **optimal model**
+#### Step 3: Test the OOD generalization with [bad model] and **optimal model**
 ```
 python test.py
 ```
