@@ -63,11 +63,11 @@ python prepare_data.py
 python train.py
 ```
 #### Step 3: Test the generalization with 
-- Task distribution shift
+* Task distribution shift
 ```
 python test_V.py
 ```
-- Covariate distribution shift
+* Covariate distribution shift
 ```
 python test_f.py
 ```
