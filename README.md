@@ -11,8 +11,10 @@ We denote by $U_{d} \left[a,b\right]$ the distribution of $d \times d$ diagonal 
 \lambda_i \overset{\mathrm{iid}}{\sim} U\left[a,b\right]$. The vector $y$ is sampled from a multivariate normal distribution $\mathcal{N}(0, \Sigma_d(\rho))$, where $\Sigma_d(\rho)$ denotes an equal-correlated covariance matrix, which is defined as $\Sigma_d(\rho) = (1-\rho)I_d + \rho F_d$, with $F_d\in \mathbb{R}^{d\times d}$ being a matrix of all ones.
 
 ## 1.1 Test the in-domain generalization
+The procedures for evaluating error versus the number of tasks (N), number of training prompts, and number of inference prompts follow the same setup.  
+Here, we show the **generalization error versus the number of tasks (N)** as an example.
 
-### 1.1.1 Test error vs. Number of Tasks (N)
+### 1.1.1 Generalization error vs. Number of Tasks (N)
 
 #### Step 1: Prepare the Data
 Navigate to the `RM/test_N` directory. Configuration settings can be adjusted in `config.py`.
