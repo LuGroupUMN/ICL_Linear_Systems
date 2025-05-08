@@ -11,6 +11,7 @@ In each example, we numerically evaluate the ICL capabilities of **linear transf
 
 - In-domain generalization.
 - out-of-domain (OOD) generalization
+  
 Additionally, we examine how the diversity of the training task distribution influences the performance of ICL.
 
 # Example 1: Linear system with random matrix
