@@ -7,7 +7,7 @@ This project numerically evaluate the in-context learning (ICL) capabilities of 
 - In-context operator learning for linear systems obtained via Galerkin discretizations of the
 linear elliptic PDE.
 
-Typically, we numerically evaluate the ICL capabilities of **linear transformers** from two aspects:
+In each example, we numerically evaluate the ICL capabilities of **linear transformers** from two aspects:
 
 - In-domain generalization.
 - out-of-domain (OOD) generalization
