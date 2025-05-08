@@ -49,4 +49,21 @@ We evaluate the OOD generalization when trained on a **diverse** task distributi
 - During training, we sample $D \sim U_d \left[1,2\right]$ (**diverse**) and $y \sim N(0, I_d)$.
 - (Task distribution shift): At inference, we vary the task distribution by varying $D \sim U_d \left[a,b\right]$ across various $(a,b)$.
 - (Covariate shift): At inference, we vary the distribution of $y$ by varying $\rho$ in the covariance matrix $\Sigma(\rho)$.
+### Navigate to the `RM/OOD` directory
+#### Step 1: Prepare the Data
+
+```
+python prepare_data.py
+```
+
+
+#### Step 2: Train the Model
+
+```
+python train.py
+```
+#### Step 3: Test the Model
+
+```
+python test.py
 
