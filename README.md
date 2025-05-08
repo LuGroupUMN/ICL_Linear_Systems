@@ -13,3 +13,16 @@ We denote by $U_{d} \left[a,b\right]$ the distribution of $d \times d$ diagonal 
 \lambda_i \overset{\mathrm{iid}}{\sim} U\left[a,b\right]$. The vector $y$ is sampled from a multivariate normal distribution $\mathcal{N}(0, \Sigma_d(\rho))$, where $\Sigma_d(\rho)$ denotes an equal-correlated covariance matrix, which is defined as $\Sigma_d(\rho) = (1-\rho)I_d + \rho F_d$, with $F_d\in \mathbb{R}^{d\times d}$ being a matrix of all ones.
 
 ## Test the in-domain generalization
+### Test rate w.r.t N (number of tasks)
+Prepare data: Code located in 'RM/test_N' (Setting in config.py)
+``
+python prepare_data.py
+``
+Then 
+``
+python train.py
+``
+Finally
+``
+python test.py
+``
