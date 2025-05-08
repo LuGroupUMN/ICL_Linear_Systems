@@ -2,6 +2,14 @@
 This project provides code for **In-Context Learning of Linear Systems: 
 Generalization theory and Application to Operator Learning**
 
+This project numerically evaluate the in-context learning (ICL) capabilities of **linear transformers** for linear systems. We consider two examples: 
+- In-context for Linear systems with random matrices.
+- In-context operator learning for linear systems obtained via Galerkin discretizations of the
+linear elliptic PDE.
+Typically, we numerically evaluate the ICL capabilities of **linear transformers** from two aspects:
+- In-domain generalization.
+- out-of-domain (OOD) generalization
+Additionally, we examine how the diversity of the training task distribution influences the performance of ICL.
 
 # Example 1: Linear system with random matrix
 Consider the linear $Ax=y$, where 
