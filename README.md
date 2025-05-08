@@ -71,3 +71,8 @@ python test_V.py
 ```
 python test_f.py
 ```
+
+## 1.3 Test the out-of-domain (OOD) generalization without diversity
+We evaluate the OOD generalization when trained on a **non-diverse** task distribution.
+- During training, we let $D = c I_d$, where $c \sim U \left[1,2\right]$ (**non-diverse**) and $y \sim N(0, I_d)$.
+- (Task distribution shift): At inference, we vary the task distribution by varying $D \sim U_d \left[a,b\right]$ across various $(a,b)$.
